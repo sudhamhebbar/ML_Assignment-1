@@ -68,7 +68,7 @@ def CalculateMetrics(confusion):
     print(f"Accuracy \t: {round(accuracy,4)}\nPrecision \t: {round(precision,4)}\nRecall  \t: {round(recall,4)}\n")
 
 
-#Creating Dataset
+#Creating the Dataset
 def create_dataset():
     data = np.zeros((100,5), dtype=float)
 
